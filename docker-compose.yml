@@ -4,8 +4,10 @@ services:
   db:
     image: mysql:5.7
     volumes:
-      - db_data:/var/lib/mysql
+      - ./mysql:/var/lib/mysql
     restart: always
+    ports:
+      - "4306:3306" 
     environment:
       MYSQL_ROOT_PASSWORD: somewordpress
       MYSQL_DATABASE: wordpress
@@ -17,12 +19,13 @@ services:
       - db
     image: wordpress:latest
     volumes:
-      - wordpress_data:/var/www/html
+      - ./src/themes:/var/www/html/wp-content/themes
+      - ./src/uploads:/var/www/html/wp-content/uploads
     ports:
       - "8000:80"
     restart: always
     environment:
-      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: wordpress
       WORDPRESS_DB_NAME: wordpress
