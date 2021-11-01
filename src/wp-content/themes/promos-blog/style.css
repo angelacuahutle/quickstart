@@ -1,0 +1,66 @@
+/*
+Theme Name: Promos Blog
+Theme URI: https://www.templatesell.com/item/promos-plus/
+Author: templatesell
+Author URI: https://www.templatesell.com/
+Description: A perfect theme for blog and magazine site. This theme has search option, multiple sidebar options, footer options, featured slider, promo boxed, footer widgets and many more. It comes with primary color option to change the whole site color with a single click.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: promos-blog
+Template: promos
+Requires PHP: 5.2
+Tested up to: 5.8
+Tags: grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, footer-widgets, custom-colors, custom-header, editor-style, rtl-language-support, theme-options, blog, news
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Promos Lite is free WordPress theme by, Template Sell and child theme of Promos.
+Promos Lite is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+html{
+    font-size: 100%!important;
+}
+body{
+    background: #fafafa;
+    font-family: 'Karla', sans-serif;
+}
+div#page {
+    max-width: 1300px;
+    margin: auto;
+    background: #fafafa;
+    box-shadow: 0 0 60px rgb(10 10 10 / 10%);
+}
+.main-header,
+.header-1 .head_one{
+    background: transparent;
+}
+.header-1 #site-navigation{
+    border: 0;
+}
+.menu-area {
+    border-bottom: 2px solid #333;
+    border-top: 2px solid #333;
+}
+aside#secondary .sidebar-area {
+    background: #fff;
+}
+aside#secondary .widget{
+    margin-bottom: 15px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lora', serif;
+}
