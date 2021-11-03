@@ -13,10 +13,9 @@
 </head>
 
 <body>
-  <nav class=" d-flex justify-content-between navbar">
-    <h1 class="Inicio">TALLER ARQUITECTURA CÉSAR FLORES</h1>
-    <div class="first-border"></div>
-    <h1 class="hamburguer-menu d-lg-none">MENU</h1>
+  <nav class="d-flex justify-content-start navbar mr-4">
+    <h1 class="Inicio mt-2">TALLER ARQUITECTURA CÉSAR FLORES</h1>
+    <h1 class="hamburguer-menu justify-content-end ml-4 d-lg-none mt-2">MENÚ</h1>
     <ul class="navbar-categories d-none d-lg-flex">
       <li><a href="nosotros.html">NOSOTROS</a></li>
       <li><a href="proyectos.html">PROYECTOS</a></li>
@@ -27,15 +26,18 @@
     </ul>
   </nav>
 
-  <div class="contenido justify-content-centre">
-    <div class='d-lg-none justify-content-centre-sm-center'>
+  <div class="d-flex align-content-center border-top border-dark w-80 mx-2">
+    <div class='d-lg-none justify-content-centre-sm-center mt-4 ml-1'>
       <img src="./assets/Proyectos/CASA MULATO/Fotos/IMG_6722.jpg"
         class="img-home-movile d-flex justify-content-centre-sm-center;">
     </div>
-    <div class="foto-info d-flex">
-      <p> MATRAJA EXP/MKT</p>
+  </div>
+
+  <div class="caption d-flex justify-content-between">
+    <div class="foto-info d-flex justify-content-start mr-4 ml-3 mt-2">
+      <p>MATRAJA EXP/MKT</p>
     </div>
-    <div class="date">
+    <div class="date d-flex justify-content-end mr-4 ml-4 mt-2">
       <p>2013</p>
     </div>
   </div>
@@ -52,28 +54,42 @@
 </body>
 
 <footer>
-  <div class="box">
-    <div class="titulo-footer">
+  <div class="box p-4 fixed-bottom d-flex flex-column justify-content-between">
+
+    <div class="titulo-footer align-content-center justify-content-center border-bottom border-dark pb-3 d-flex">
       <p>TALLER ARQUITECTURA CESAR FLORES</p>
     </div>
-    <div class="info border-top">
-      <p>INFO @CTALLER.MX CEL. 55 3876 5057 TEL. 55 5162 2410</p>
+
+    <div class="d-flex">
+      <div class="d-flex flex-column">
+        <div class="info mt-2 d-flex">
+          <p>INFO @CTALLER.MX CEL. 55 3876 5057 TEL. 55 5162 2410</p>
+        </div>
+        <div class="direc">
+          <p>CDA FÉLIX CUEVAS 7 INTE. 4,
+            COL. TLACOQUEMECATL DEL VALLE, BENITO JUAREZ, 03200, CDMX</p>
+        </div>
+      </div>
+      <div class="d-flex flex-column">
+        <div class="fb">
+          <p>FACEBOOK</p>
+        </div>
+        <div class="ig">
+          <p>INSTAGRAM</p>
+        </div>
+      </div>
     </div>
-    <div class="direc">
-      <p>CDA FÉLIX CUEVAS 7 INTE. 4,
-        COL. TLACOQUEMECATL DEL VALLE, BENITO JUAREZ, 03200, CDMX</p>
+    <div class="d-flex justify-content-between">
+      <ul class="link-footer d-flex m-0 p-0 justify-content-between w-50">
+        <li><a class="text-dark" href="index.html">INICIO</a></li>
+        <li><a class="text-dark" href="proyectos.html">PROYECTOS</a></li>
+        <li><a class="text-dark" href="contacto.html">CONTACTO</a></li>
+      </ul>
+      <div class="loguito row">
+        <img src="./assets/Logos/Vector 1.png" class="log">
+        <img src="./assets/Logos/Vector2.png" class="log">
+      </div>
     </div>
-    <div class="fb">
-      <p>FACEBOOK</p>
-    </div>
-    <div class="ig">
-      <p>INSTAGRAM</p>
-    </div>
-  </div>
-  <div class="loguito sm-c-2">
-    <img src="./assets/Logos/Vector 1.png" class="log">
-    <img src="./assets/Logos/Vector2.png" class="log">
-  </div>
   </div>
 </footer>
 

@@ -31,7 +31,7 @@ h4,
 h5,
 h6,
 p {
-  margin: 0 0 1em;
+  margin: 0 0 0;
 }
 p,
 ul,
@@ -39,7 +39,7 @@ ol {
   font-size: 1em;
 }
 ul {
-  margin: 0 0 1em 25px;
+  margin: 0;
   list-style: none;
 }
 h1 {
@@ -174,12 +174,7 @@ a:active {
 
 /* ------------------- Media Queries ------------------- */
 @media (min-width: 900px) {
-  .navbar {
-    position: absolute;
-    width: 251px;
-    height: 17px;
-    left: 26px;
-    top: 22px;
+   .navbar {
     font-family: Aeonik;
     font-style: normal;
     font-weight: normal;
@@ -187,137 +182,85 @@ a:active {
     line-height: 17px;
     color: #27271f;
   }
+  .hamburger-menu {
+    margin-left: auto;
+  } 
 }
 
 .first-border {
- /*position: absolute;*/
-  width: 336px;
-  height: 0px;
-  left: 20px;
-  top: 58px;
   border: 1px solid rgba(0, 0, 0, 1);
 }
 
 .img-home-movile {
-  height: 508px;
-  width: 315px;
+  height: 51vh;
+  width: 86vw;
   border-radius: 0px;
   mix-blend-mode: normal;
 }
 
 .foto-info {
-  position: absolute;
-  width: 171px;
-  height: 16px;
-  left: 20px;
-  top: 600px;
   font-family: Aeonik;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
-  line-height: 16px;
   color: #27271f;
 }
 
 .date {
-  position: absolute;
-  width: 48.09px;
-  height: 14.57px;
-  left: 287.91px;
-  top: 560px;
+  font-family: Aeonik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #27271f;
 }
 
 .box {
-  position: absolute;
-  width: 375px;
-  height: 203px;
-  top: 652px;
   background: #c4c4c4;
+  height: 27vh;
 }
 
 .titulo-footer {
-position: absolute;
-width: 335px;
-height: 23px;
-left: 20px;
-top: 673pxs;
 font-family: Aeonik;
 font-style: normal;
 font-weight: normal;
-font-size: 18.5px;
-line-height: 22px;
+font-size: 16.5px;
 /* identical to box height */
 color: #27271F;
 }
 
-.border-bottom {
-  position: absolute;
-  width: 335px;
-  left: 20px;
-  top: 712px;
-  border: 1px solid #27271F;
-}
-
 .info {
-position: absolute;
-width: 169px;
-height: 24px;
-left: 20px;
-top: 750px;
 font-family: Aeonik;
 font-style: normal;
 font-weight: normal;
-font-size: 10px;
-line-height: 12px;
+font-size: 10PX;
 color: #27271F;
 }
 
 .direc {
-  position: absolute;
-  width: 217px;
-  height: 39px;
-  left: 21px;
-  top: 789px;
   font-family: Aeonik;
   font-style: normal;
   font-weight: normal;
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 10PX;
   color: #27271F;
 }
 
 .fb {
-  position: absolute;
-  width: 92px;
-  height: 23px;
-  left: 258px;
-  top: 745px;
   font-family: Aeonik;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 22px;
   color: #27271F;
 }
 
 .ig {
-  position: absolute;
-  width: 98px;
-  height: 22px;
-  left: 258px;
-  top: 778px;
   font-family: Aeonik;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 22px;
   color: #27271F;
 }
-.loguito {
-  position: absolute;
-  width: 376px;
-  height: 236px;
-  left: 0px;
-  top: 812px;
-}
 
+.link-footer {
+  font-family: Aeonik;
+  font-size: 10px;
+}
