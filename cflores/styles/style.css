@@ -182,7 +182,7 @@ a:active {
 
 .box {
   background: #c4c4c4;
-  height: 27vh;
+  height: 28vh;
 }
 
 .titulo-footer {
@@ -243,6 +243,16 @@ a:active {
   width: 25vw;
 }
 
+.cover-image {
+  height: 62vh;
+
+}
+
+.cover-image > img {
+  object-fit: cover;
+  width: 99vw;
+}
+
 /* ------------------- Media Queries ------------------- */
 @media (min-width: 900px) {
    .navbar {
@@ -255,5 +265,16 @@ a:active {
   }
   .hamburger-menu {
     margin-left: auto;
-  } 
+  }
+  .w-lg-21vw {
+    width: 21vw;
+  }
+  .font-lg-3vw {
+    font-size: 3vw;
+  }
+
+  .font-lg-1vw {
+    font-size: 1vw;
+  }
+
 }
